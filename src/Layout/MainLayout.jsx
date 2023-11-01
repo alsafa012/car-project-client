@@ -2,6 +2,7 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../Pages/SharedPages/Footer";
 import Navbar from "../Components/HeaderSection/Navbar/Navbar";
+import CounterSection from "../Components/CounterSection/CounterSection";
 // import { useTheme } from "../Hooks/DarkTheme";
 
 const MainLayout = () => {
@@ -42,6 +43,7 @@ const MainLayout = () => {
                </div> */}
                <div className="">
                     <Navbar></Navbar>
+                    <CounterSection></CounterSection>
                     <Outlet></Outlet>
                     <Footer></Footer>
                </div>
